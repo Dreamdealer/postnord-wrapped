@@ -4,13 +4,15 @@
       <li data-menuanchor="start" class="active">
         <a href="#start">Start</a>
       </li>
-      <li data-menuanchor="future"><a href="#future">Environment</a></li>
+      <li data-menuanchor="environment">
+        <a href="#environment">Environment</a>
+      </li>
       <li data-menuanchor="products"><a href="#products">Products</a></li>
       <li data-menuanchor="speed"><a href="#speed">Speed</a></li>
-      <li data-menuanchor="ratings"><a href="#speed">Ratings</a></li>
-      <li data-menuanchor="demography"><a href="#speed">Demography</a></li>
-      <li data-menuanchor="future"><a href="#speed">Future</a></li>
-      <li data-menuanchor="you"><a href="#speed">Your stats!</a></li>
+      <li data-menuanchor="ratings"><a href="#ratings">Ratings</a></li>
+      <li data-menuanchor="demography"><a href="#demography">Demography</a></li>
+      <li data-menuanchor="future"><a href="#future">Future</a></li>
+      <li data-menuanchor="you"><a href="#you">Your stats!</a></li>
     </ul>
     <full-page :options="options" id="fullpage" ref="fullpage">
       <Start />
@@ -102,9 +104,6 @@ li {
   margin-top: 30px;
   margin-bottom: 20px;
 }
-a {
-  color: #42b983;
-}
 input,
 button {
   padding: 10px;
@@ -117,6 +116,27 @@ button {
 button:hover {
   box-shadow: 0 0 15px #0d234b;
   cursor: pointer;
+}
+#menu {
+  position: fixed;
+  z-index: 9999;
+  text-align: center;
+  width: 100vw;
+  padding: 10px;
+}
+#menu:hover a {
+  opacity: 1;
+}
+#menu a {
+  color: #fff;
+  font-weight: 100;
+  opacity: 0.5;
+  transition: opacity 700ms;
+}
+#menu a:hover,
+#menu .active a {
+  text-decoration: underline;
+  opacity: 1;
 }
 .form-row {
   margin: 20px 0;
