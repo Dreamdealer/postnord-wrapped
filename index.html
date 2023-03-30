@@ -5,18 +5,113 @@
     <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PostNord Wrapped 2023</title>
-    <style>
-body { 
-  background-color: #00a0d6;
-  color: #FFF;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: arial;
-  padding: 0;
-  margin: 0;
+    <style type="text/css">
+    blockquote,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,td,textarea,th,ul{
+    padding:0;
+    margin:0
 }
-
+a{
+    text-decoration:none
+}
+table{
+    border-spacing:0
+}
+fieldset,img{
+    border:0
+}
+address,caption,cite,code,dfn,em,strong,th,var{
+    font-weight:400;
+    font-style:normal
+}
+strong{
+    font-weight:700
+}
+ol,ul{
+    list-style:none;
+    margin:0;
+    padding:0
+}
+caption,th{
+    text-align:left
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight:400;
+    font-size:100%;
+    margin:0;
+    padding:0
+}
+q:after,q:before{
+    content:''
+}
+abbr,acronym{
+    border:0
+}
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+.section{
+    position:relative
+}
+#section-1{
+    text-align:center
+}
+#section-1 h2:before{
+    content:'';
+    display:inline-block;
+    height:200px;
+    width:232px;
+    background-image:url(imgs/vue-fullpage2.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    vertical-align:bottom
+}
+#section-1 h2{
+    color:#fff;
+    font-size:10em;
+    font-weight:900
+}
+#section-1 h1{
+    font-size:2em;
+    font-weight:100;
+    -webkit-font-smoothing:antialiased;
+    -moz-font-smoothing:antialiased;
+    margin:1.5em auto 1em auto;
+    color:#35495e;
+    padding-right:30px;
+    padding-left:30px
+}
+#section-1 li{
+    display:inline-block;
+    margin:1.25em .3em
+}
+.section-1-button{
+    padding:.93em 1.87em;
+    background:#35495e;
+    border-radius:5px;
+    display:block;
+    color:#fff
+}
+h3{
+    font-size:5em;
+    text-align:center;
+    color:#fff;
+    font-weight:700
+}
+#logo{
+    position:fixed;
+    top:20px;
+    left:20px;
+    color:#fff;
+    font-weight:700;
+    z-index:99;
+    font-size:1.9em;
+    -webkit-font-smoothing:antialiased;
+    -moz-font-smoothing:antialiased
+}
+    </style>
+    <style>
 @font-face {
   font-family: "PostNordSans";
   src: url("https://portal.postnord.com/fonts/PostNordSans-Light.woff2") format("woff2"), url("https://portal.postnord.com/fonts/PostNordSans-Light.woff") format("woff");
@@ -67,6 +162,11 @@ body {
   font-style: italic;
   font-display: swap;
 }
+body { 
+  background-color: #00a0d6;
+  color: #FFF;
+}
+
 body, button, input {
   font-family: "PostNordSans", "Verdana";
 }
