@@ -1,14 +1,8 @@
 <template>
   <div class="section" data-anchor="start">
-    <h3>PostNord Delivered 2023</h3>
-    <p>
-      In "Delivered" we show you some general statistics and numbers, but also
-      we'll provide you as an e-tailer with tailored information to improve your
-      business.
-    </p>
     <svg
-      width="800"
-      height="560"
+      width="100%"
+      height="400"
       viewBox="0 0 1000 560"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -295,6 +289,13 @@
         fill="#500715"
       ></path>
     </svg>
+
+    <h1>PostNord Delivered 2023</h1>
+    <p>
+      Thank you for choosing PostNord as your logistics partner! What a year we
+      had together. Let's look at some of the things that we did during 2023. In
+      "Delivered" we review the past year for us and <i>you</i>.
+    </p>
   </div>
 </template>
 

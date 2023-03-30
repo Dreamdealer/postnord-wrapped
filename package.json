@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@postnord/web-components": "^4.0.28",
     "vue": "^3.2.25",
     "vue-fullpage.js": "^0.2.13"
   },

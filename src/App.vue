@@ -69,7 +69,6 @@ export default {
           "future",
           "you",
         ],
-        sectionsColor: ["#005d92", "#fbc2c1", "#abe3bb", "#8eddf9", "#ffc8a3"],
         credits: {
           enabled: false,
         },
@@ -91,18 +90,33 @@ li {
   display: inline-block;
   margin: 0 10px;
 }
+h1 {
+  font-size: 5em;
+  text-align: center;
+  font-weight: 700;
+}
+h3 {
+  font-size: 3em;
+  text-align: center;
+  font-weight: 700;
+}
 .section,
 .slide {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-size: 110%;
 }
 .section p {
   display: inline-block;
   max-width: 800px;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin: 30px 0;
+  overflow: hidden;
+}
+.section svg {
+  height: 25vh;
+  margin-bottom: 50px;
 }
 input,
 button {
@@ -139,10 +153,46 @@ button:hover {
   opacity: 1;
 }
 .form-row {
-  margin: 20px 0;
+  margin: 10px 0;
 }
 .form-row label {
   display: block;
   margin-bottom: 10px;
+}
+.fp-overflow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section i {
+  font-weight: 700;
+  font-style: normal;
+  position: relative;
+  display: inline-block;
+  font-size: 108%;
+}
+.section i::after {
+  -webkit-animation: bounce 1.5s ease infinite alternate;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 1px;
+  background: #fff;
+}
+@-webkit-keyframes bounce {
+  100% {
+    left: -5px;
+    right: -5px;
+  }
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px 0;
 }
 </style>
