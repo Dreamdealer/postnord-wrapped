@@ -9,7 +9,7 @@
       </li>
       <li data-menuanchor="products"><a href="#products">Products</a></li>
       <li data-menuanchor="speed"><a href="#speed">Speed</a></li>
-      <li data-menuanchor="ratings"><a href="#ratings">Ratings</a></li>
+      <li data-menuanchor="ratings"><a href="#ratings">Satisfaction</a></li>
       <li data-menuanchor="demography"><a href="#demography">Demography</a></li>
       <li data-menuanchor="future"><a href="#future">Future</a></li>
       <li data-menuanchor="you"><a href="#you">Your stats!</a></li>
@@ -73,7 +73,6 @@ export default {
           enabled: false,
         },
         scrollingSpeed: 400,
-        loopTop: true,
         keyboardScrolling: true,
       },
     };
@@ -99,6 +98,11 @@ h3 {
   font-size: 3em;
   text-align: center;
   font-weight: 700;
+}
+h4 {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-top: -5px;
 }
 .section,
 .slide {
@@ -194,5 +198,13 @@ ol {
   flex-direction: column;
   align-items: flex-start;
   margin: 20px 0;
+}
+table {
+  text-align: left;
+  margin-top: 30px;
+}
+td {
+  padding: 6px 20px;
+  position: relative;
 }
 </style>

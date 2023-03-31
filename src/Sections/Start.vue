@@ -291,6 +291,7 @@
     </svg>
 
     <h1>PostNord Delivered 2023</h1>
+    <h4>The past year in numbers</h4>
     <p>
       Thank you for choosing PostNord as your logistics partner! What a year we
       had together. Let's look at some of the things that we did during 2023. In

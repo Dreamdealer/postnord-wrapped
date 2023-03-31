@@ -78,7 +78,7 @@
       </p>
     </div>
     <div class="slide">
-      <h3>🚙 Cooler delivery vehicles</h3>
+      <h3>🚙 Faster delivery vehicles</h3>
       <p>
         Renault Kangoo's are boring, so we're going to replace the fleet with
         Tesla Plaids for faster deliveries and happier postmen and -women 🎉

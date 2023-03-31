@@ -23,16 +23,30 @@
           fill="#F06365"
         ></path>
       </svg>
-      <h3>What do people think about us?</h3>
-      <p>Some of the feedback we got:</p>
-      <h4>"I love postnord. I would like to dy my hair blue! - Johan</h4>
-      <h4>"Postnord is the greatest thing since sliced bread! - Anna</h4>
+      <h3>We love you! Do you love us too?</h3>
+      <p>"PostNord is the best thing since sliced bread!" - Anna (22)</p>
     </div>
     <div class="slide">
       <h3>Service point</h3>
-      <p>Average score: 4.3 / 5 ⭐️⭐️⭐️⭐️</p>
-      <h3>Varubrev</h3>
-      <p>Average score: 5 / 5 ⭐️⭐️⭐️⭐️⭐️</p>
+      <p>
+        Average score: 4.3 / 5 ⭐️⭐️⭐️⭐️<br />
+        "I love collecting parcels at my local Service Point. The employees
+        there always have a treat for my dog" - Karin (32)
+      </p>
+      <h3>Home delivery</h3>
+      <p>
+        Average score: 3.8 / 5 ⭐️⭐️⭐️<br />
+        "It's so convenient to have my parcel delivered to my doorstep. I am
+        scared to drive over icy roads, but luckily the mailman is not scared of
+        anything! He's my hero!" - Monique (41)
+      </p>
+      <h3>Drone delivery</h3>
+      <p>
+        Average score: 5 / 5 ⭐️⭐️⭐️⭐️⭐️<br />
+        "I ordered sunscreen when I was sunbathing and 30 minutes later the
+        drone landed next to my sunbed and prevented me from having a nasty
+        sunburn. So awesome!" - Jack (25)
+      </p>
     </div>
   </div>
 </template>

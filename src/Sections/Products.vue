@@ -151,8 +151,52 @@
       </p>
     </div>
     <div class="slide">
-      <h3>Varubrev 🎉</h3>
-      <h4>10.183 parcels</h4>
+      <h3>Varubrev 1:a-klass 🎉</h3>
+      <p>
+        8.120.183 parcels<br />
+        A whopping <i>23%</i> of all parcels were sent as Varubrev parcel.
+      </p>
+    </div>
+    <div class="slide">
+      <h3>🏆 All products ranked</h3>
+      <table>
+        <tr>
+          <td>8.120.183</td>
+          <td>23%</td>
+          <td>Varubrev 1:a-klass</td>
+          <td>🔼 5%</td>
+        </tr>
+        <tr>
+          <td>7.423.212</td>
+          <td>20%</td>
+          <td>MyPack Collect</td>
+          <td>🔽 2%</td>
+        </tr>
+        <tr>
+          <td>7.111.983</td>
+          <td>18%</td>
+          <td>MyPack Home</td>
+          <td>🔼 8%</td>
+        </tr>
+        <tr>
+          <td>6.312.457</td>
+          <td>10%</td>
+          <td>Parcel Locker</td>
+          <td>🔼 15%</td>
+        </tr>
+        <tr>
+          <td>2.398.126</td>
+          <td>8%</td>
+          <td>Pallet</td>
+          <td>🔽 12%</td>
+        </tr>
+        <tr>
+          <td>523.922</td>
+          <td>2%</td>
+          <td>Drone delivery</td>
+          <td>🔼 100%</td>
+        </tr>
+      </table>
     </div>
   </div>
 </template>
